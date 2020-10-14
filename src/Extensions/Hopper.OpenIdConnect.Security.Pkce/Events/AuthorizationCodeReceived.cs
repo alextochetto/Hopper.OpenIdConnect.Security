@@ -8,7 +8,7 @@ namespace Microsoft.AspNetCore.Authentication.OpenIdConnect
 {
     public static class AuthorizationCodeReceived
     {
-        private static Func<AuthorizationCodeReceivedContext, Task> OnAuthorizationCodeReceivedEvent()
+        public static Func<AuthorizationCodeReceivedContext, Task> OnAuthorizationCodeReceivedEvent()
         {
             return context =>
             {
