@@ -4,7 +4,7 @@ using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 
 namespace Microsoft.AspNetCore.Authentication.OpenIdConnect
 {
-    public static class AuthorizationCodeReceived
+    public static class AuthorizationCodeReceivedExtension
     {
         public static Func<AuthorizationCodeReceivedContext, Task> OnAuthorizationCodeReceivedEvent(this Func<AuthorizationCodeReceivedContext, Task> authorizationCodeReceivedContext)
         {
