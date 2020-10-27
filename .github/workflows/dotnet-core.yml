@@ -24,6 +24,6 @@ jobs:
     - name: Test
       run: dotnet test --no-restore --verbosity normal
     - name: Pack
-      run: dotnet pack ./src/Extensions/Hopper.Authentication.OpenIdConnect.Pkce/Hopper.Authentication.OpenIdConnect.Pkce.csproj --output nuget-packages --configuration Release -p:PackageVersion=1.0.0
+      run: dotnet pack ../../src/Extensions/Hopper.Authentication.OpenIdConnect.Pkce/Hopper.Authentication.OpenIdConnect.Pkce.csproj --output nuget-packages --configuration Release -p:PackageVersion=1.0.0
     - name: Nuget
       run: dotnet nuget push nuget-packages/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
