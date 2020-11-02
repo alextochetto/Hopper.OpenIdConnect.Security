@@ -18,7 +18,7 @@ jobs:
     - name: Install dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build --configuration Release --no-restore
+      run: dotnet build --configuration Release --no-restore Hopper.Authentication.OpenIdConnect.Pkce.csproj
       working-directory: ./src/Extensions/Hopper.Authentication.OpenIdConnect.Pkce
     - name: Test
       run: dotnet test --no-restore --verbosity normal
