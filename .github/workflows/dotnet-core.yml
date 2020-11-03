@@ -18,8 +18,8 @@ jobs:
     - name: Install dependencies
       run: dotnet restore
     - name: Build
-      working-directory: ./src/Extensions/Hopper.Authentication.OpenIdConnect.Pkce      
       run: dotnet build --configuration Release
+      working-directory: ./src/Extensions
     - name: Test
       run: dotnet test --no-restore --verbosity normal
     - name: Pack
