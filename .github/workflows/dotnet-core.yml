@@ -19,8 +19,6 @@ jobs:
       run: dotnet restore ./src/Extensions
     - name: Build
       run: dotnet build --configuration Release ./src/Extensions
-    - name: Test
-      run: dotnet test --no-restore --verbosity normal
     - name: Pack
       run: dotnet pack -c Release /p:Version=${{ github.event.release.tag_name }} /p:PackageReleaseNotes="See https://github.com/alextochetto/Hopper.OpenIdConnect.Security/releases/tag/${{ github.event.release.tag_name }}"
       working-directory: ./src/Extensions/Hopper.Authentication.OpenIdConnect.Pkce
