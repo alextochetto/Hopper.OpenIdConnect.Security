@@ -20,7 +20,7 @@ jobs:
     - name: Build
       run: dotnet build --configuration Release ./src/Extensions
     - name: Pack
-      run: dotnet pack -c Release /p:Version=${{ github.event.release.tag_name }} /p:PackageReleaseNotes="See https://github.com/alextochetto/Hopper.OpenIdConnect.Security"
+      run: dotnet pack -c Release /p:Version=${{ github.event.release.tag_name }} /p:PackageReleaseNotes="See https://github.com/alextochetto/Hopper.OpenIdConnect.Security/releases/tag/${{ github.event.release.tag_name }}"
       working-directory: ./src/Extensions
     - name: Nuget
       run: dotnet nuget push **/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --no-symbols true

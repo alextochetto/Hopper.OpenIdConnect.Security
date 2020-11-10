@@ -1,7 +1,7 @@
 ![OpenIdConnect Security](https://github.com/alextochetto/Hopper.OpenIdConnect.Security/workflows/OpenIdConnect%20Security/badge.svg)
 
 <p align="center">
-  <img src="https://github.com/alextochetto/Hopper.OpenIdConnect.Security/blob/main/src/Extensions/Hopper.Authentication.OpenIdConnect.Pkce/Images/icon.png?raw=true" width="350px" alt="SharpSenses" />
+  <img src="https://github.com/alextochetto/Hopper.OpenIdConnect.Security/blob/main/src/Extensions/Hopper.Authentication.OpenIdConnect.Pkce/Images/icon.png?raw=true" width="150px" alt="SharpSenses" />
 </p>
 <p>
 
