@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Alex Tochetto</Authors>
+    <Description>This package it's an easy way to enable PKCE (Proof Key for Code Exchange) in ASP.NET Core application. PKCE it's an extension to OAuth 2.0 for public clients (e.g., native and single-page applications) has been designed to prevent interception of authorization code.</Description>
+    <RepositoryUrl>https://github.com/alextochetto/Hopper.OpenIdConnect.Security</RepositoryUrl>
+    <PackageTags>ASP.NET Core;OpenIdConnect;PKCE;Security</PackageTags>
+    <tags>Security OpenIdConnect PKCE</tags>
   </PropertyGroup>
 
   <ItemGroup>
