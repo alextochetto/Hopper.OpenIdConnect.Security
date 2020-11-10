@@ -7,7 +7,12 @@
     <RepositoryUrl>https://github.com/alextochetto/Hopper.OpenIdConnect.Security</RepositoryUrl>
     <PackageTags>ASP.NET Core;OpenIdConnect;PKCE;Security</PackageTags>
     <tags>Security OpenIdConnect PKCE</tags>
+    <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+      <None Include="Images\icon.png" Pack="true" PackagePath=""/>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="3.1.9" />
