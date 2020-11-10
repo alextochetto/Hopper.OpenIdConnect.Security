@@ -1,6 +1,6 @@
 ![OpenIdConnect Security](https://github.com/alextochetto/Hopper.OpenIdConnect.Security/workflows/OpenIdConnect%20Security/badge.svg)
 
-# Hopper.OpenIdConnect.Security
+# Hopper.Authentication.OpenIdConnect
 This package it's an easy way to enable PKCE (Proof Key for Code Exchange) in ASP.NET Core application.
 PKCE it's an extension to OAuth 2.0 for public clients (e.g., native and single-page applications) has been designed to prevent interception of authorization **code**.
 Below there are some steps to understand how it works:
@@ -17,7 +17,7 @@ Below there are some steps to understand how it works:
 
 6. The authority server allow the Id Token and Access Token response.
 
-## Hopper.Authentication.OpenIdConnect
+## Hopper.Authentication.OpenIdConnect.Pkce
 > Install-Package Hopper.Authentication.OpenIdConnect.Pkce
 
 ```
